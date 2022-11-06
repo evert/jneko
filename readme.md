@@ -1,4 +1,4 @@
-jNeko - Javascript implementation of Neko
+jneko - Javascript implementation of Neko
 =========================================
 
 Neko is a desktop pet originall written by Naoshi Watanabe for the NEC PC-8901.
