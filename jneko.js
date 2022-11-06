@@ -80,7 +80,7 @@ const stateMachine = {
   },
   normal: {
     image: 'mati2',
-    nextState: ['normal', 'normal', 'normal', 'normal', 'tilt', 'tilt', 'scratch', 'yawn'],
+    nextState: ['normal', 'normal', 'normal', 'tilt', 'tilt', 'scratch', 'yawn'],
     nextStateDelay: 1.5,
   },
   tilt: {
