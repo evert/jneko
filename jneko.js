@@ -56,8 +56,8 @@ function main() {
   const nekoDiv = document.getElementById('jneko');
 
   nekoDiv.style.position = 'fixed';
-  nekoDiv.style.left = '500px';
-  nekoDiv.style.top = '300px';
+  nekoDiv.style.left = '50%';
+  nekoDiv.style.top = '50%';
   nekoImg = new Image(nekoSize, nekoSize);
   nekoDiv.appendChild(nekoImg);
   nekoDiv.addEventListener('click', () => onClick());
