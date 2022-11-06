@@ -78,8 +78,8 @@ const stateMachine = {
   },
   normal: {
     image: 'mati2',
-    nextState: ['normal', 'normal', 'normal', 'tilt', 'scratch', 'yawn'],
-    nextStateDelay: 1,
+    nextState: ['normal', 'normal', 'normal', 'normal', 'tilt', 'tilt', 'scratch', 'yawn'],
+    nextStateDelay: 1.5,
   },
   tilt: {
     image: 'jare2',
@@ -88,7 +88,7 @@ const stateMachine = {
   },
   yawn: {
     image: 'mati3',
-    nextState: ['normal', 'sleep'],
+    nextState: ['normal', 'normal', 'sleep'],
     nextStateDelay: 1,
   },
   scratch: {
