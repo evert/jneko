@@ -132,7 +132,7 @@ function setState(stateName) {
   clearInterval(imageCycleInterval);
 
   if (Array.isArray(stateName)) {
-    stateName = stateName[Math.floor(Math.random()*(stateName.length+1))];
+    stateName = stateName[Math.floor(Math.random()*(stateName.length))];
   }
   if (!stateMachine[stateName]) {
     throw new Error('Uknown state: ' + stateName);
