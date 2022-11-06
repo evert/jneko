@@ -14,7 +14,7 @@ const imageNames = [
   'left1',
   'left2',
   'ltogi1',
-  'ltogo2',
+  'ltogi2',
   'mati2',
   'mati3',
   'right1',
